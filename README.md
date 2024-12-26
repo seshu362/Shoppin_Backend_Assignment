@@ -40,7 +40,7 @@ Before running the crawler, you need to configure the `urls.json` file. This fil
 [
   "https://www.amazon.com/s?k=laptop",
   "https://www.ebay.com/sch/i.html?_nkw=laptop",
-  "https://www.walmart.com/search/?query=laptop"
+  "https://www.bestbuy.com/site/searchpage.jsp?st=laptop"
 ]
 ```
 
@@ -73,9 +73,9 @@ Once the crawler completes, it will generate a product-urls.json file with the e
     "https://www.ebay.com/itm/324968547970",
     "https://www.ebay.com/itm/123456789012"
   ],
-  "https://www.walmart.com/search/?query=laptop": [
-    "https://www.walmart.com/ip/123456789012",
-    "https://www.walmart.com/ip/987654321098"
+  "https://www.bestbuy.com/site/searchpage.jsp?st=laptop": [
+    "https://www.bestbuy.com/site/123456789012",
+    "https://www.bestbuy.com/site/987654321098"
   ]
 }
 ```
